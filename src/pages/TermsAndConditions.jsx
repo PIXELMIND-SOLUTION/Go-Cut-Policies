@@ -6,13 +6,12 @@ const TermsAndConditions = () => {
 
       {/* Header */}
       <div className="text-center mb-5">
-        <span
-          className="badge px-3 py-2 mb-2"
-          style={{ backgroundColor: "#800000" }}
-        >
+        <span className="badge px-3 py-2 mb-2" style={{ backgroundColor: "#800000" }}>
           Legal
         </span>
+
         <h1 className="fw-bold mt-2">Terms & Conditions</h1>
+
         <p className="text-muted">
           Last updated:{" "}
           {new Date().toLocaleDateString("en-GB", {
@@ -31,128 +30,73 @@ const TermsAndConditions = () => {
 
               <ul className="list-group list-group-flush">
 
-                {/* Point 1 */}
                 <li className="list-group-item border-0 mb-3">
-                  <div className="d-flex align-items-start gap-3">
-                    <span
-                      className="badge rounded-circle d-flex align-items-center justify-content-center"
-                      style={{
-                        backgroundColor: "#800000",
-                        width: "32px",
-                        height: "32px",
-                      }}
-                    >
-                      1
-                    </span>
-                    <div>
-                      <h6 className="fw-semibold mb-1">Acceptance of Terms</h6>
-                      <p className="text-muted mb-0">
-                        By accessing or using the Go-Cut application, you agree
-                        to comply with and be bound by these Terms & Conditions.
-                        If you do not agree with any part of these terms, please
-                        discontinue using the app.
-                      </p>
-                    </div>
-                  </div>
+                  <h6 className="fw-semibold">1. Acceptance of Terms</h6>
+                  <p className="text-muted mb-0">
+                    By accessing or using the GoCut Beauty App, you agree to be
+                    bound by these Terms & Conditions.
+                  </p>
                 </li>
 
-                {/* Point 2 */}
                 <li className="list-group-item border-0 mb-3">
-                  <div className="d-flex align-items-start gap-3">
-                    <span
-                      className="badge rounded-circle d-flex align-items-center justify-content-center"
-                      style={{
-                        backgroundColor: "#800000",
-                        width: "32px",
-                        height: "32px",
-                      }}
-                    >
-                      2
-                    </span>
-                    <div>
-                      <h6 className="fw-semibold mb-1">Account Registration</h6>
-                      <p className="text-muted mb-0">
-                        Users must provide accurate, complete, and up-to-date
-                        information during registration. Go-Cut reserves the
-                        right to suspend or terminate accounts with false or
-                        misleading details.
-                      </p>
-                    </div>
-                  </div>
+                  <h6 className="fw-semibold">2. Account Registration</h6>
+                  <p className="text-muted mb-0">
+                    Users must provide accurate and up-to-date information.
+                    Accounts with false details may be suspended.
+                  </p>
                 </li>
 
-                {/* Point 3 */}
                 <li className="list-group-item border-0 mb-3">
-                  <div className="d-flex align-items-start gap-3">
-                    <span
-                      className="badge rounded-circle d-flex align-items-center justify-content-center"
-                      style={{
-                        backgroundColor: "#800000",
-                        width: "32px",
-                        height: "32px",
-                      }}
-                    >
-                      3
-                    </span>
-                    <div>
-                      <h6 className="fw-semibold mb-1">Salon Bookings</h6>
-                      <p className="text-muted mb-0">
-                        All salon bookings are subject to availability and
-                        confirmation by the respective salon. Go-Cut acts only
-                        as a booking platform and does not directly provide salon
-                        services.
-                      </p>
-                    </div>
-                  </div>
+                  <h6 className="fw-semibold">3. Salon Bookings</h6>
+                  <p className="text-muted mb-0">
+                    GoCut acts as a booking platform and does not directly
+                    provide salon services.
+                  </p>
                 </li>
 
-                {/* Point 4 */}
                 <li className="list-group-item border-0 mb-3">
-                  <div className="d-flex align-items-start gap-3">
-                    <span
-                      className="badge rounded-circle d-flex align-items-center justify-content-center"
-                      style={{
-                        backgroundColor: "#800000",
-                        width: "32px",
-                        height: "32px",
-                      }}
-                    >
-                      4
-                    </span>
-                    <div>
-                      <h6 className="fw-semibold mb-1">Wallet Usage</h6>
-                      <p className="text-muted mb-0">
-                        Wallet balances may be used for bookings, offers, and
-                        promotions on the platform. Wallet funds are
-                        non-transferable and subject to applicable cancellation
-                        and refund policies.
-                      </p>
-                    </div>
-                  </div>
+                  <h6 className="fw-semibold">4. Wallet Usage</h6>
+                  <p className="text-muted mb-0">
+                    Wallet balances are non-transferable and subject to refund
+                    policies.
+                  </p>
                 </li>
 
-                {/* Point 5 */}
+                <li className="list-group-item border-0 mb-3">
+                  <h6 className="fw-semibold">5. Termination</h6>
+                  <p className="text-muted mb-0">
+                    We reserve the right to suspend accounts that violate these
+                    terms.
+                  </p>
+                </li>
+
+                {/* COMPANY INFO */}
                 <li className="list-group-item border-0">
-                  <div className="d-flex align-items-start gap-3">
-                    <span
-                      className="badge rounded-circle d-flex align-items-center justify-content-center"
-                      style={{
-                        backgroundColor: "#800000",
-                        width: "32px",
-                        height: "32px",
-                      }}
-                    >
-                      5
-                    </span>
-                    <div>
-                      <h6 className="fw-semibold mb-1">Termination</h6>
-                      <p className="text-muted mb-0">
-                        Go-Cut reserves the right to suspend or permanently
-                        terminate user accounts that violate these Terms &
-                        Conditions or misuse the platform in any manner.
-                      </p>
-                    </div>
-                  </div>
+                  <h6 className="fw-semibold">6. Company Information</h6>
+
+                  <p className="mb-1 fw-semibold">
+                    Brando Global Technologies Pvt Ltd
+                  </p>
+
+                  <p className="mb-1">
+                    Owner: Ramachandra Reddy
+                  </p>
+
+                  <p className="mb-1">
+                    #26/2, Ramachandra Building, 2nd Main, 1st Cross,  
+                    Chinnamma Layout, Madiwala, Maruti Nagar,  
+                    Bangalore - 560068, India
+                  </p>
+
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.digitalraiz.gouser"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="fw-semibold text-decoration-none"
+                    style={{ color: "#800000" }}
+                  >
+                    View App on Google Play
+                  </a>
                 </li>
 
               </ul>
@@ -168,10 +112,9 @@ const TermsAndConditions = () => {
           className="badge px-3 py-2"
           style={{ backgroundColor: "#f5eaea", color: "#800000" }}
         >
-          © {new Date().getFullYear()} Go-Cut. All rights reserved.
+          © {new Date().getFullYear()} Brando Global Technologies Pvt Ltd. All rights reserved.
         </span>
       </div>
-
     </div>
   );
 };
